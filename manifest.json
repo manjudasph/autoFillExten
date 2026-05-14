@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+
+  "name": "Universal Smart Autofill",
+
+  "version": "3.0",
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+
+      "js": [
+        "content/scanner.js",
+        "content/classifier.js",
+        "content/matcher.js",
+        "content/autofill.js",
+        "content/ui.js",
+        "content/main.js"
+      ]
+    }
+  ]
+}
