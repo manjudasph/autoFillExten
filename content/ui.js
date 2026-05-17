@@ -42,7 +42,7 @@ function createFloatingPanel(matches) {
 
   html += `
 
-    <button id="fillAllBtn">
+    <button id="fillAllBtn" style="color:black;font-weight:bolder;">
       Fill All
     </button>
 

@@ -21,7 +21,13 @@ function detectFieldType(el) {
   ).toLowerCase();
 
   const rules = {
-
+ fullName: [
+    "fullname",
+    "full name",
+    "name",
+    "your name",
+    "complete name"
+  ],
     firstName: [
       "first",
       "fname",

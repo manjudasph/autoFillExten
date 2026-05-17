@@ -8,6 +8,11 @@
 <h2>Smart Autofill Profile</h2>
 
 <div class="field">
+  <label>Full Name</label>
+  <input id="fullName">
+</div>
+
+<div class="field">
   <label>First Name</label>
   <input id="firstName">
 </div>
@@ -43,6 +48,9 @@
 </div>
 
 <button id="saveBtn">Save Profile</button>
+<button id="downloadBtn">Download Profile</button>
+<input type="file" id="importInput" accept="application/json" style="display:none">
+<button id="importBtn">Import Profile</button>
 
 <script src="popup.js"></script>
 </body>

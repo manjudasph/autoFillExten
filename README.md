@@ -16,7 +16,7 @@ A semantic autofill Chrome extension that intelligently detects and fills form f
 ---
 
 ## Supported Fields
-
+- Full Name
 - First Name
 - Last Name
 - Email
@@ -112,3 +112,6 @@ chrome://extensions/
 - Multiple user profiles
 - Better semantic inference
 - Chrome Web Store release
+
+For scale up:
+add new field at classifier,popup.html,popup.js
